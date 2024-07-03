@@ -1,0 +1,16 @@
+{
+  "name": "dropdown-menu-sm",
+  "version": "1.0.1",
+  "description": "basic dropdown menu",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dropdown",
+    "dropdown menu",
+    "menu"
+  ],
+  "author": "Semih Mert semihmert.dev@gmail.com",
+  "license": "ISC"
+}

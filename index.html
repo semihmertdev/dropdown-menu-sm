@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Example</title>
+    <style>
+        .menu {
+            display: none;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+        }
+
+        .menu.visible {
+            display: block;
+        }
+
+        .menu li {
+            padding: 8px 12px;
+        }
+
+        .menu li:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <button id="menuButton">Menu</button>
+    <ul class="menu" id="menu">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <script src="script.js"></script>
+</body>
+</html>
